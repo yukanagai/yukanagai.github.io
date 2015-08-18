@@ -19,7 +19,12 @@ header h1 {
 	margin-top: 100px;
 	text-align: center;
 	color: #3498db;
-	font-family: ;
+	font-size: 44px;
+}
+
+header h2 {
+	text-align: center;
+	color: #3498db;
 }
 
 .nav-bar {
