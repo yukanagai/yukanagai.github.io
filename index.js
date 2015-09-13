@@ -1,4 +1,4 @@
-$function() {
+$(function() {
 
   var scroll_pos = 0;
     $(document).scroll(function() {
@@ -10,5 +10,3 @@ $function() {
         }
     });
 });
-
-}
