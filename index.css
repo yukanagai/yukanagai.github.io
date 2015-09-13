@@ -13,18 +13,6 @@ header {
 	text-align: center;
 }
 
-.nav-bar ul {
-	list-style-type: none;
-	margin: 20px;
-	text-align: center;
-
-}
-
-.nav-bar li {
-	display: inline-block;
-	margin: 0px 10px;
-}
-
 a {
 	text-decoration: none;
 	color: #34D1BF;
@@ -33,4 +21,8 @@ a {
 
 a:hover {
 	color: #D1345B;
+}
+
+.first {
+	height: 500px;
 }
