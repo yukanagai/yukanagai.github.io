@@ -3,23 +3,41 @@
 	<head>
 		<link rel="stylesheet" href="/index.css" />
 		<title>Yuka Nagai</title>
+		<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+		<script src="//cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+		<script>
+			$(function() {
+				setInterval(function() {
+					var shiftX = Math.random()* 40 - 20;
+					var shiftY = Math.random()* 40 - 20;
+					$('#left-pupil, #right-pupil').velocity({translateX: shiftX, translateY: shiftY}, 1000) 				// speed of animation
+						}, 500);									// how many times your function is called (ie. half a second)
+			});
+		</script>
 	</head>
 
-	<body>
-		<div class="header">
-			<h1>Yuka Nagai</h1>
-			<h5>New York, New York</h5>
 
-			<div class="nav-bar">
-				<ul>
-					<li><a href="/about.html">About Me</a></li>
-					<li><a href="/projects.html">Projects</a></li>
-					<li><a href="http://linkedin.com/in/yukanagai">LinkedIn</a></li>
-					<li><a href="https://github.com/yukanagai">GitHub</a></li>
-					<li><a href="mailto:yukanagai@gmail.com">Contact</a></li>
-				</ul>
-			</div>
+
+
+	<body>
+
+		<div class="nav-bar">
+			<ul>
+				<li><a href="/about.html">About Me</a></li>
+				<li><a href="/projects.html">Projects</a></li>
+				<li><a href="http://linkedin.com/in/yukanagai">LinkedIn</a></li>
+				<li><a href="https://github.com/yukanagai">GitHub</a></li>
+				<li><a href="mailto:yukanagai@gmail.com">Contact</a></li>
+			</ul>
 		</div>
+
+		<header>
+			<h2>Hi, my name's Yuka.</h2>
+			<h5>New York, New York</h5>
+		</header>
+
 
 		<div class="main">
 			<h3>Hello, my name's Yuka & I'm learning to code.</h3>
@@ -42,7 +60,7 @@
 			<rect x="200" y="500" width="200" height="5" fill="#8B4500"/>
 		</g>
 		</svg>
-<!-- 
+<!--
 		<div class="main">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate elit quis pretium ultricies. Quisque pretium, nibh non venenatis luctus, quam urna congue lorem, non euismod magna nulla a velit. Quisque eget mi id metus lobortis iaculis. Suspendisse congue est quis quam consequat pellentesque. In vel justo eu massa sodales dictum nec sit amet tortor. Fusce vitae hendrerit massa. Proin dignissim nunc at molestie pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat justo vitae elit tincidunt varius. Vivamus eu libero non quam maximus rutrum a eu nisl. Pellentesque fringilla purus eu nulla mollis, vel consectetur nibh mattis. Aliquam felis est, egestas sed egestas ut, scelerisque vel elit. Nullam justo purus, auctor in vulputate vel, vulputate et urna.
 			</p>

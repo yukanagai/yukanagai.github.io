@@ -1,15 +1,28 @@
 html {
-	font-family: "proxima-nova"; Helvetica; Sans-serif;
 	padding: 0;
 	margin: 0;
-	width: 100%;
-	color: black;
-
 }
 
 body {
+	font-family: 'Open Sans', sans-serif;
 	width: 600px;
 	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+}
+
+.nav-bar ul {
+	list-style-type: none;
+	margin: 20px;
+	text-align: center;
+
+}
+
+.nav-bar li {
+	display: inline-block;
+	margin: 0px 10px;
 }
 
 a {
@@ -21,38 +34,3 @@ a {
 a:hover {
 	color: #D1345B;
 }
-
-.nav-bar {
-
-}
-
-.nav-bar li {
-	display: inline-block;
-	
-}
-
-
-/*
-
-header h1 {
-	margin-top: 100px;
-	text-align: center;
-	color: #3498db;
-	font-size: 44px;
-}
-
-header h2 {
-	text-align: center;
-	color: #3498db;
-}
-
-.nav-bar {
-	text-align: center;
-	margin: 20px;
-	width: 500px;
-	margin: 0 auto;
-	background: #95a5a6;
-}
-
-
-/*/
