@@ -12,6 +12,10 @@ jQuery(function() {
     //  Grab the value of the input with the id `task`
     var theTask = inputTask.val();
 
+    if (inputTask.val() == '') {
+      alert("You didn't add anything!");
+    } else {
+
     // Append the checkbox and the task into the <li> element
     newTask.append(checkbox);
     newTask.append(theTask);
@@ -46,7 +50,7 @@ jQuery(function() {
     random = quotes[Math.floor(Math.random() * quotes.length )];
     $('#quote').text(random);
 
-  });
+  };
 
   // Add an event listener for the keydown event on the <input type="text" id="task">
   // which is currently stored in the inputTask variable
@@ -62,6 +66,7 @@ jQuery(function() {
       // task item to the list.
       addTaskButton.click();
     }
+  });
   });
 
 
