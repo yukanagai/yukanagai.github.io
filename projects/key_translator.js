@@ -24,6 +24,8 @@ $(function() {
 								.replace('caps lock', '⇪');
 
 		$(outputTxt).val(outputVal);
+		// Clear the <input type="text">
+    	inputVal.val("");
 	})
 
 
