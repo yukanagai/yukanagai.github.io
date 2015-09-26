@@ -47,7 +47,6 @@ main {
   border-radius: 20px;
 }
 
-
 #task-list {
   font-size: 2em;
   list-style-type: none;
@@ -67,7 +66,7 @@ form {
 	text-align: center;
 	display: inline-block;
 	margin: 0 auto;
-	margin: 50px 0;
+	margin: 30px 0;
 	width: 100%;
 }
 
