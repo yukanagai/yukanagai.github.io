@@ -54,6 +54,11 @@ h4 {
 
 .nav li {
   display: inline-block;
+  margin-left: 30px;
+}
+
+.nav a {
+  font-size: 16px;
 }
 
 
