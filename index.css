@@ -13,7 +13,6 @@ body {
   width: 90%;
   border: #fff solid 30px;
   margin: 0px auto;
-  box-sizing: border-box;
 }
 
 a {
@@ -27,6 +26,7 @@ a:hover {
 }
 
 .whatup {
+  margin-top: 150px;
   display: none;
 }
 
@@ -50,7 +50,7 @@ h4 {
   margin: 0 auto;
   font-size: 1.3em;
   text-align: center;
-  line-height: 1.2em;
+  line-height: 1em;
   height: 600px;
 }
 
