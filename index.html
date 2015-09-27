@@ -1,55 +1,68 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-  <link rel="stylesheet" href="/index.css" />
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
-  <script type="text/javascript" src="/index.js"></script>
-  <script src="//cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Nunito:700' rel='stylesheet' type='text/css'>
-  <title>{ Yuka Nagai }</title>
-</head>
+  <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <!--   JS, JQUERY + VELOCITY -->
+<!--     // <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    // <script type="text/javascript" src="/index.js"></script> -->
+    <script src="//cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js"></script>
+    <!--   GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito:700' rel='stylesheet' type='text/css'>
 
+    <title>{ Yuka Nagai }</title>
+  </head>
 
-<body>
-
-  <header>
-    <h6>{ made_by :yuka }</h6>
-  </header>
-
-  <div id="container">
-    <div class="row">
-      <div class="column">
-
-        <div class="slide" id="first">
-          <h3>Hi, my name's Yuka &<br> I'm a web developer in NYC.</h3>
-        </div>
-
-        <div class="slide" id="second">
-          <h5>I'm currently part of <a href="http://generalassemb.ly">General Assembly's</a> web development immserive where I'm learning fullstack as part of my career pivot from <p>business development ==> web development.</p>
-			<br><br>I'm particularly excited about interactive design, mastering JavaScript, and working on creative projects with creative people. </h5>
-        </div>
-
-        <div class="slide" id="third">
-          <h5>Check out some of my class projects
-				<a href="projects.html">here</a>.</h5>
-          <!-- <h5>I'm also starting my own side projects like <a href-"#">this</a>.</h5> -->
-        </div>
-
-        <div class="slide" id="fourth">
-          <h4>Get in touch:</h4>
-          <h5>yukanagai@gmail.com</h5>
-          <ul>
-            <li><a href="http://twitter.com/yukanagai">Twitter</a></li>
-            <li><a href="http://linkedin.com/in/yukanagai">LinkedIn</a></li>
-            <li><a href="https://github.com/yukanagai">GitHub</a></li>
-            <li><a href="http://www.yninny.tumblr.com">Tumblr</a></li>
-          </ul>
-        </div>
-
+  <body>
+    <header>
+      <div class="nav-bar">
+       <a href="/index.html"><h6 id="home">{ made_by :yuka }</h6></a>
+       <a href="/porfolio.html"><h6 id="porfolio">Portfolio</h6></a>
+       <a href="http://www.yukasphotography.tumblr.com"><h6 id="photos">Photography</h6></a>
+       <a href="/about.html"><h6 id="about">About</h6></a>
+       <a href="/contact.html"><h6 id="contact">Contact</h6></a>
       </div>
-    </div>
-</body>
+    </header>
 
+    <div id="container">
+
+      <div class="slide">
+        <div id="intro">
+          <h4>Hey there, I'm Yuka.<br>I'm a web designer + developer based in NYC.</h4>
+        </div>
+      </div>
+
+      <div class="slide" id="work">
+          <h4>Projects:</h4>
+            <table>
+              <tr>
+                <td><a href="/projects/todo_app/todo_app.html">Motivational To-do List<br>
+                  <h6>JavaScript, jQuery, HTML/CSS</h6>
+                <img src="/projects/todo_app/todo-app.png" /></a></td>
+              <td><a href="/projects/key_translator.html">Key Translator<br>
+                <h6>JavaScript, jQuery, HTML/CSS</h6>
+                <img src="/projects/translator.png"></a></td>
+              </tr>
+            </table>
+      </div>
+
+      <div class="slide" id="info">
+        <h5>I'm currently part of <a href="http://generalassemb.ly">General Assembly's</a> web development immserive where I'm learning fullstack as part of my career pivot from business development ==> web development. I'm particularly excited about interactive design, mastering JavaScript, and working on creative projects with creative people.</h5>
+      </div>
+
+      <div class="slide" id="contact">
+        <h4>Get in touch:</h4>
+        <h5>yukanagai@gmail.com</h5>
+        <ul>
+          <li><a href="http://twitter.com/yukanagai">Twitter</a></li>
+          <li><a href="http://linkedin.com/in/yukanagai">LinkedIn</a></li>
+          <li><a href="https://github.com/yukanagai">GitHub</a></li>
+          <li><a href="http://www.yninny.tumblr.com">Tumblr</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
 </html>
