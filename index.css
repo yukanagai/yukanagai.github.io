@@ -203,11 +203,30 @@ h4 {
 
   body {
     font-size: 10px;
-    line-height:1em;
   }
 
-  #intro.slide {
+  h5 {
+    font-size: 15px;
+  }
+
+  thead {
+    float: right;
+    min-width: 150px;
+  }
+  
+  tr, td { 
+    display: block;
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  #intro .slide {
     width: 80%;
+  }
+
+  #intro {
+    line-height: 1.5;
   }
 
   #mobile-hide {
@@ -217,6 +236,14 @@ h4 {
   #show li {
     margin-left: 8px;
   }
+
+  #work {
+   float: none;
+ }
+
+ #nav {
+  float: none;
+ }
 
 
 }
