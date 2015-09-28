@@ -1,6 +1,10 @@
 /************************
         GENERAL
 ************************/
+html {
+  width: 100%;
+  line-height: 1;
+}
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -10,7 +14,8 @@ body {
 .page-wrapper {
   background-color: #F5F5F5;
   height: 100%;
-  width: 90%;
+  width: 100%;
+  box-sizing:;
   border: #fff solid 30px;
   margin: 0px auto;
 }
@@ -29,19 +34,43 @@ a:hover {
   text-decoration: italic;
 }
 
-.whatup {
-  margin-top: 150px;
-  display: none;
+::selection {
+  background: #F4F4F4;
+}
+
+ul {
+  list-style: none;
 }
 
 h3 {
   text-align: center;
   font-size: 34px;
+  font-weight: 400;
   line-height: 34px;
 }
 
 h4 {
   font-size: 18px;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.bg.color-2 {
+  background-color: #7bafba;
+}
+
+.bg.color-3 {
+  background-color: #c7acb7;
+}
+
+.bg.color-1 {
+  background-color: #f2eb9b;
+}
+
+.bg.color-4 {
+  background-color: #F5F5F5;
 }
 
 /************************
@@ -122,7 +151,7 @@ h4 {
 }
 
 #work h5 {
-  margin-top: 6px;
+  margin-top: 0px;
 }
 
 #work table {
