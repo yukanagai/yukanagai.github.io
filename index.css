@@ -137,6 +137,7 @@ h4 {
 
 #work ul {
   list-style: none;
+  padding: 0px;
 }
 
 #work li {
@@ -162,6 +163,18 @@ h4 {
   width: 50%;
 }
 
+#mobile {
+  display: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+#show {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
 /************************
         ABOUT ME
 ************************/
@@ -185,12 +198,26 @@ h4 {
 
 #footer h3 {
   font-size: 1.5em;
+  margin: 0px;
 }
 
 #footer a:hover {
   text-decoration: underline;
 }
 
+#footer ul {
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+#footer li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#footer hr {
+  width: 40%;
+}
 
 
 /******************
@@ -219,6 +246,10 @@ h4 {
     font-size: 20px;
   }
 
+  #mobile {
+    display: inline-block;
+  }
+
   .nav li {
     display: block;
   }
@@ -231,10 +262,6 @@ h4 {
     line-height: 1.5;
   }
 
-  #mobile-hide {
-    display: none;
-  }
-
   #work {
    float: none;
  }
@@ -243,10 +270,24 @@ h4 {
   float: none;
  }
 
+ hr {
+  margin-top: 0px;
+ }
+
+ #footer li {
+  font-size: 14px;
+  display: block;
+ }
+
+ #footer h3 {
+  font-size: 1.5em;
+  margin: 0px;
+}
+
+
 
 }
 
 @media (max-width: 660px) {
-
 
 }
