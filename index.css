@@ -15,6 +15,10 @@ body {
   margin: 0px auto;
 }
 
+.page-wrapper .red {
+  background: red;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -187,8 +191,8 @@ h4 {
 }
 
 @media (max-width: 660px) {
-  .page-wrapper .whatup {
+/*  .page-wrapper .whatup {
     display: block;
-  }
+  }*/
 
 }
