@@ -14,8 +14,7 @@ body {
 .page-wrapper {
   background-color: #F5F5F5;
   height: 100%;
-  width: 100%;
-  box-sizing:;
+  width: 90%;
   border: #fff solid 30px;
   margin: 0px auto;
 }
@@ -51,10 +50,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-}
-
-table {
-  border-spacing: 0;
 }
 
 .bg.color-2 {
@@ -96,6 +91,10 @@ table {
   margin-top: 0px;
   margin-bottom: 200px;
 }
+
+.page-wrapper .whatup {
+    display: none;
+  }
 
 /************************
         NAV-BAR
@@ -223,8 +222,8 @@ table {
 }
 
 @media (max-width: 660px) {
-/*  .page-wrapper .whatup {
+  .page-wrapper .whatup {
     display: block;
-  }*/
+  }
 
 }
