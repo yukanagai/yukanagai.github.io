@@ -9,6 +9,7 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
   color: black;
+  text-rendering: optimizeLegibility;
 }
 
 .page-wrapper {
@@ -213,6 +214,10 @@ h4 {
 #footer li {
   margin-right: 10px;
   display: inline-block;
+}
+
+#social a {
+  text-transform: uppercase;
 }
 
 #footer hr {
