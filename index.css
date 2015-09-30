@@ -12,16 +12,12 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.page-wrapper {
+.pageWrapper {
   background-color: #F5F5F5;
   height: 100%;
   width: 90%;
-  border: #fff solid 30px;
+  border: white solid 30px;
   margin: 0px auto;
-}
-
-.page-wrapper .red {
-  background: red;
 }
 
 a {
@@ -53,21 +49,7 @@ h4 {
   font-size: 18px;
 }
 
-.bg.color-2 {
-  background-color: #7bafba;
-}
 
-.bg.color-3 {
-  background-color: #c7acb7;
-}
-
-.bg.color-1 {
-  background-color: #f2eb9b;
-}
-
-.bg.color-4 {
-  background-color: #F5F5F5;
-}
 
 /************************
       WELCOME PAGE
@@ -82,15 +64,20 @@ h4 {
   height: 600px;
 }
 
-#intro h3 {
+.words {
   margin-top: 200px;
   margin-bottom: 20px;
 }
 
-
-#intro h4 {
+#intro h3 {
+  font-size: 3em;
   margin-top: 0px;
-  margin-bottom: 200px;
+  margin-bottom: 10px;
+}
+
+#last {
+  margin-top: 0px;
+  margin-bottom: 180px;
 }
 
 .page-wrapper .whatup {
@@ -131,7 +118,7 @@ h4 {
 
 #work {
   padding: 20px;
-  background: white;
+  background-color: white;
   width: 70%;
   margin: 0 auto;
 }

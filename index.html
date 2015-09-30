@@ -8,6 +8,7 @@
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="/index.js"></script>
 
+
     <!--   GOOGLE FONTS -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Nunito:700' rel='stylesheet' type='text/css'>
@@ -15,47 +16,40 @@
   </head>
 
   <body>
-    <div class="page-wrapper">
-      
-      <div class="info-button">
-      </div>
+    <div class="pageWrapper">
+
       <div class="slide" id="intro">
-
-        <div class="whatup">
-          <h4> </h4>
-        </div>
-
-        <h3>YUKA NAGAI</h3><br>
-        <h4>Web designer + developer + adventurist</h4>
+        <div class="words">
+          <h4>HELLO! I'M</h4>
+          <h3>YUKA NAGAI</h3><br>
+          <h4 id="last">WEB DESIGNER + FRONT-END DEVELOPER</h4>
+      </div>
 
         <div class="nav">
           <ul id="show">
-            <li id="link1"><a href="#portfolio">Portfolio</li></a>
-            <li id="link2"><a href="#about">About</li></a>
-            <li id="link3"><a href="#email">Contact</li></a>
-            <hr/>
-          </ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#email">Contact</a></li>
+          </ul><hr/>
 
           <ul id="mobile">
             <li><a href="http://linkedin.com/in/yukanagai">LinkedIn</a></li>
             <li><a href="https://github.com/yukanagai">GitHub</a></li>
             <li><a href="http://twitter.com/yukanagai">Twitter</a></li>
-            <li><a href="http://www.yukasphotography.tumblr.com">Photography</li></a>
+            <li><a href="http://www.yukasphotography.tumblr.com">Photography</a></li>
           </ul>
         </div>
       </div>
-
-      <a name="portfolio"></a>
       <div class="slide" id="work">
+        <a name="portfolio"></a>
         <h3>Portfolio</h3>
-          <table>
-            <thead>
+        <table>
+          <thead>
             <tr>
               <td>
                 <h4><a href="http://codeanddesign.herokuapp.com">Wiki Web-App</a></h4>
                 <h5>Ruby on Rails, JavaScript/jQuery, PostSQL, HTML/CSS</h5>
               </td>
-
               <td>
                 <h4>Point of Sale Web-App</h4>
                 <h5>JavaScript/jQuery, HTML/CSS</h5>
@@ -63,53 +57,50 @@
 
             <tr>
               <td>
-               <h4> <a href="/projects/todo_app/todo_app.html">Motivational To-do List</h4></a>
+                <h4> <a href="/projects/todo_app/todo_app.html">Motivational To-do List</h4></a>
                 <h5>JavaScript, jQuery, HTML/CSS</h5>
               </td>
-
               <td>
                 <h4><a href="/projects/key_translator.html">Key Translator</h4>
                 <h5>JavaScript, jQuery, HTML/CSS</h5>
               </td>
             </tr>
-          </thead>
 
             <tr>
               <td>
-                <h4>Github API</h4>
+                <h4>Github Users Database</h4>
                 <h5>API</h5>
-              </td>
+             </td>
+             <td>
+              <h4><a href="/projects/weathervain/index.html">Weather Vain</a></h4>
+              <h5>Ajax, API, JavaScript</h5>
+            </td>
+          </tr>
+        </thead>
+      </table>
+    </div>
 
-              <td>
-                <h4>Weather Vain</h4>
-                <h5>Ajax, JavaScript</h5>
-              </td>
+    <!-- <a name="about"></a>
+    <div class="slide" id="about">
+      <h3>About</h3>
+      <h4>I'm currently part of <a href="http://generalassemb.ly">General Assembly's</a> web development immserive where I'm learning fullstack as part of my career pivot from business development ==> web development.<br>
+      I'm particularly excited about interactive design, mastering JavaScript, and working on creative projects with creative people.</h4>
+    </div> -->
 
-            </tr>
-
-          </table>
-      </div>
-
-<!--       <a name="about"></a>
-      <div class="slide" id="about">
-        <h3>About</h3>
-        <h4>I'm currently part of <a href="http://generalassemb.ly">General Assembly's</a> web development immserive where I'm learning fullstack as part of my career pivot from business development ==> web development.<br>
-        I'm particularly excited about interactive design, mastering JavaScript, and working on creative projects with creative people.</h4>
-      </div>
- -->
+  
+    <div class="slide" id="footer">
       <a name="email"></a>
-      <div class="slide" id="footer">
-        <h2>LET'S WORK:</h2>
-        <h3><a href="mailto:yukanagai@gmail.com">yukanagai@gmail.com<a></h3><br>
-        <hr />
-        <ul id="social">
-          <li><a href="http://linkedin.com/in/yukanagai">LinkedIn</a></li>
-          <li><a href="https://github.com/yukanagai">GitHub</a></li>
-          <li><a href="http://twitter.com/yukanagai">Twitter</a></li>
-          <li><a href="http://www.yukasphotography.tumblr.com">Photography</li></a>
+      <h2>LET'S WORK:</h2>
+      <h3><a href="mailto:yukanagai@gmail.com">yukanagai@gmail.com<a></h3><br>
+      <hr />
+
+      <ul id="social">
+        <li><a href="http://linkedin.com/in/yukanagai">LinkedIn</a></li>
+        <li><a href="https://github.com/yukanagai">GitHub</a></li>
+        <li><a href="http://twitter.com/yukanagai">Twitter</a></li>
+        <li><a href="http://www.yukasphotography.tumblr.com">Photography</a></li>
       </ul>
-      </div>
     </div>
   </div>
-  </body>
+</body>
 </html>
