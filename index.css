@@ -111,6 +111,27 @@ h4 {
   display: block;
 }
 
+
+/************************
+        ABOUT ME
+************************/
+
+.aboutMeOff {
+  display: none;
+}
+
+.aboutMeOn {
+  display: block;
+/*  position:'fixed'; 
+  top: $(window).scrollTop();
+  left: 0;
+  height: '100%';
+  width: '100%';
+  background: '#ccc';
+  opacity: 0.8;*/
+}
+
+
 /************************
         PROJECTS
 ************************/
@@ -253,6 +274,12 @@ h4 {
   #intro {
     line-height: 1.5;
   }
+
+  #about {
+    top: 400px;
+  }
+
+
 
   #work {
    float: none;
