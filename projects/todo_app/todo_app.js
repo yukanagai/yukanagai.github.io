@@ -44,7 +44,8 @@ jQuery(function() {
       "Keep your eyes on the stars, and your feet on the ground.  - Theodore Roosevelt",
       "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.  - Samuel Beckett",
       "The key is to keep company only with people who uplift you, whose presence calls forth your best.  - Epictetus",
-      "Setting goals is the first step in turning the invisible into the visible.  - Tony Robbins"
+      "Setting goals is the first step in turning the invisible into the visible.  - Tony Robbins",
+      "If you wish to travel far and fast, travel light. Take off all your envies, jealousies, unforgiveness, selfishness, and fears."
     );
     
     random = quotes[Math.floor(Math.random() * quotes.length )];
