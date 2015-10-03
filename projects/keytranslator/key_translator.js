@@ -1,15 +1,13 @@
 $(function() {
 
-	var translateButton = $('button');
-	var inputTxt = $('.inputBox');
-	var outputTxt = $('.outputBox');
+	$('#input').keypress(function(event) {
+		if (event.which == 13) {
+			event.preventDefault();
+			var inputTxt = $('.inputBox');
+			var outputTxt = $('.outputBox');
+			var inputVal = inputTxt.val().toLowerCase();
 
- 	translateButton.on('click', function(event) {
- 		event.preventDefault();
-
-		var inputVal = inputTxt.val().toLowerCase();
-
-		var outputVal = inputVal.replace('command', '⌘')
+			var outputVal = inputVal.replace('command', '⌘')
 								.replace('tab', '⇥')
 								.replace('return', '⏎')
 								.replace('option', '⌥')
@@ -25,8 +23,7 @@ $(function() {
 
 		$(outputTxt).val(outputVal);
 		// Clear the <input type="text">
-    	inputVal.val("");
-	})
-
-
+    	inputTxt.val("");
+		}
+	});
 });
