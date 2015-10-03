@@ -16,10 +16,15 @@
 
 	<body>
 		<div class="wrapper">
-		<div class="header">
-			<h1>Key Translator</h1>
-			<h3>It's hard to type out those icons!<br>Enter text below and get the pretty output.</h3>
-		</div>
+			<div class="header">
+				<h1>Key Translator</h1>
+				<h3>It's hard to type out those icons!<br>Enter text below and get the pretty output.</h3>
+			</div>
+
+			<div class="text">
+				<p class="in">Key command:
+				<input type="textbox" class="inputBox" id="input"></p>
+			</div>
 
 		<div class="table">
 		<table>
@@ -47,7 +52,6 @@
 				<td>Right</td>
 				<td>Shift</td>
 				<td>Eject</td>
-				<td>Caps lock</td>
 			</tr>
 
 			<tr class="icons">
@@ -57,6 +61,13 @@
 				<td>→</td>
 				<td>⇧</td>
 				<td>⏏</td>
+			</tr>
+
+			<tr class="topRow">
+				<td>Caps lock</td>
+			</tr>
+
+			<tr class="icons">
 				<td>⇪</td>
 			</tr>
 		</table>
@@ -65,9 +76,6 @@
 
 		<form>
 			<div class="text">
-				<p class="in">Command:
-				<input type="textbox" class="inputBox" id="input"></p>
-				<br>
 				<p class="out">
 				<input type="textbox" class="outputBox"></p>
 				<span class="box2"></span>
