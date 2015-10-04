@@ -30,6 +30,7 @@ jQuery(function() {
     // When a click occurs on a checkbox toggleClass did-it to apply a strike through style to the completed task
     checkbox.on('click', function() {
       newTask.toggleClass("did-it");
+      $('.container input').addClass('animated shake');
     });
 
     // random quotes:
