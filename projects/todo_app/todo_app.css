@@ -69,19 +69,25 @@ form button {
 #task-list li {
   position: relative;
   list-style: none;
-  font-size: .7em;
+  font-size: .9em;
   text-transform: uppercase;
   overflow: inherit;
+}
+
+input.toggled-checked {
+  margin-right: 10px;
+  background: black;
+  color: white;
 }
 
 
 #quote {
 	width: 50%;
 	text-align: center;
-	font-family: 'Crimson Text', serif;
-	font-size: 1.1em;
+	font-family: 'Roboto', serif;
+	font-size: 1em;
 	font-style: italic;
-	height: 50px;
+	height: 60px;
 	margin: 0 auto;
 	padding: 20px;
   color: white;
@@ -97,93 +103,6 @@ form button {
   text-decoration: line-through;
   color: red;
 }
-
-
-
-/*main {
-  background-color: #FCA311;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  line-height: 25px;
-  width: 40%;
-  margin: 0 auto;
-  border-radius: 20px;
-}
-
-#task-list {
-  font-size: 1.5em;
-  list-style-type: none;
-  margin: 0 auto;
-  width: 400px;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-}
-
-#task-list li {
-	display: block;
-	text-align: left;
-	margin-bottom: 20px;
-}
-
-form {
-	text-align: center;
-	display: inline-block;
-	margin: 0 auto;
-	margin: 30px 0;
-	width: 100%;
-}
-
-.container {
-	margin: 0 auto;
-	text-align: center;
-}
-
-#task {
-	width: 250px;
-	height: 45px;
-	font-family: 'Poppins', sans-serif;
-	font-size: 20px;
-	text-align: center;
-	border: none;
-	margin-right: 10px;
-}
-
-button {
-	width: 45px;
-	height: 45px;
-	font-family: 'Poppins', sans-serif;
-	font-size: 26px;
-	border: none;
-	color: black;
-	background-color: #E5E5E5;
-	padding: 0px;
-	margin: 0px;
-}
-
-.toggled-check {
-	width: 30%;
-	height: 30%;
-	margin: 30px;
-}
-
-
-.list {
-	text-align: center;
-	margin: 0 auto;
-}
-
-
-input.toggled-checked {
-	margin-right: 20px;
-	width: 20px;
-	height: 20px;
-}
-
-.did-it {
-  text-decoration: line-through;
-  color: #FFFFFF;
-}*/
-
 
 
 /******************
