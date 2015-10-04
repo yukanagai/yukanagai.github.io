@@ -1,4 +1,5 @@
 jQuery(function() {
+
   var addTaskButton = $("button"); // grabbing the button element
   var inputTask = $("#task"); // grabbing the input field with id task
 
