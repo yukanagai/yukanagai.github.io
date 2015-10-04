@@ -23,7 +23,7 @@ $(function() {
 
 		$(outputTxt).val(outputVal);
 		// Clear the <input type="text">
-    	inputTxt.val("");
+    	// inputTxt.val("");
 		}
 	});
 });
