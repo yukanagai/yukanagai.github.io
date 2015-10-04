@@ -11,22 +11,21 @@
 
 <body>
   <div class="wrapper">
-    <h1>Weather App</h1>
-    <div class="date">
+    <div class="top">
+      <h1>Weather App</h1>
+      <p class="prompt">What city are you interested in, weather lover?</p>
+      <div class="cityInput">
+        <form class="pure-form">
+          <input type="text" class="pure-input-rounded" id="city">
+        </form>
+      </div>
+    </div>
+    
+    <div class="bottom">
+      <div class="cityOutput">
+        <p id="forecast"></p>
+      </div>
       <p id="date"></p>
-    </div>
-    <div class="cityInput">
-      <p class="prompt">
-        What city are you interested in, weather lover?
-      </p>
-      
-      <form class="pure-form">
-        <input type="text" class="pure-input-rounded" id="city">
-      </form>
-    </div>
-
-    <div class="cityOutput">
-      <p id="forecast"></p>
     </div>
   </div>
 
