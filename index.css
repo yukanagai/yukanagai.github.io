@@ -153,9 +153,10 @@ h4 {
 }
 
 #work img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 td .caption {
@@ -170,12 +171,15 @@ td .caption {
 td:hover .caption{
   display: block;
   background: black;
-  opacity: .8;
+  opacity: .75;
   color: white;
   margin: 0 auto;
-  padding-top: 130px;
+  padding-top: 80px;
 }
 
+.caption h5{
+  line-height: 1.5;
+}
 
 #work td {
   overflow: hidden;
