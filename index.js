@@ -7,11 +7,4 @@ $(function() {
 		$('.pageWrapper').css('background-color', randColor);
 	});
 
-
-
-	// open About page on click
-	// $('#aboutMe').click(function(){
-	// 	$(this).css({position:'fixed', display: block, height: '100%', width: '100%', background-color: 'blue', opacity: 0.8});
-	// });
-
 });

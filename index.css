@@ -156,9 +156,9 @@ td .caption {
 
 td:hover .caption{
   display: block;
-  background: black;
-  opacity: .75;
-  color: white;
+  background: white;
+  opacity: .9;
+  color: black;
   margin: 0 auto;
   padding-top: 80px;
 }
@@ -200,7 +200,7 @@ td:hover .caption{
   margin: 100px 0;
   padding: 20px;
   margin: 0px auto;
-  font-size: 18px; 
+  font-size: 16px; 
   line-height: 30px;
 }
 
@@ -216,8 +216,6 @@ td:hover .caption{
   width: 15px;
   margin-right: 5px;
 }
-
-
 
 /************************
         FOOTER
