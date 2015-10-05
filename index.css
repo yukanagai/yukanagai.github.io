@@ -8,7 +8,8 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: #333;
+  letter-spacing: 0.01rem;
   text-rendering: optimizeLegibility;
 }
 
@@ -112,26 +113,6 @@ h4 {
 }
 
 
-/************************
-        ABOUT ME
-************************/
-
-.about {
-  
-
-}
-
-.contacts img {
-  width: 15px;
-  margin-right: 5px;
-}
-
-.contacts a {
-  margin: 15px;
-  font-size: 1em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 
 
 /************************
@@ -213,12 +194,27 @@ td:hover .caption{
 ************************/
 
 #about {
-  margin-top: 200px;
-  margin: 0px auto;
+  font-weight: 700;
+  width: 60%;
+  margin: 100px 0;
   padding: 20px;
-  width: 50%;
-
+  margin: 0px auto;
+  font-size: 1em; 
 }
+
+#about h3 {
+  margin-top: 100px;
+}
+
+#about img {
+  width: 15px;
+}
+
+.contacts img {
+  width: 15px;
+  margin-right: 5px;
+}
+
 
 
 /************************
@@ -226,7 +222,7 @@ td:hover .caption{
 ************************/
 
 #footer {
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -260,8 +256,12 @@ td:hover .caption{
   width: 40%;
 }
 
-#heart {
-  width: 20px;
+
+.contacts a {
+  margin: 15px;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /******************
@@ -273,6 +273,10 @@ td:hover .caption{
   body {
     font-size: 10px;
     line-height: 1.3;
+  }
+
+  #about {
+    font-size: 2em;
   }
 
   h5 {
