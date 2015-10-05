@@ -1,0 +1,44 @@
+html {
+  width: 100%;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+	font-family: 'Open Sans', sans-serif;
+  color: #333;
+  letter-spacing: 0.01rem;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::selection {
+  background: #cc2555;
+  color: white;
+}
+
+.row {
+  display: flex;
+  display: table;
+}
+
+.col {
+  flex: 1;
+   display: table-cell;
+   width: 50%;
+   padding: 0;
+}
+
+img {
+  width: 400px;
+  
+}
+
+

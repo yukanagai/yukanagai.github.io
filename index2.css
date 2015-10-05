@@ -1,0 +1,375 @@
+/************************
+        GENERAL
+************************/
+html {
+  width: 100%;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #31B6EA;
+  margin: 0;
+  padding: 0;
+	font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.01rem;
+  text-rendering: optimizeLegibility;
+}
+
+.pageWrapper {
+  /*background-color: #E9284E;*/
+  height: 100%;
+  width: 90%;
+/*  border: white solid 30px;*/
+  margin: 0px auto;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #888888;
+  text-decoration: none;
+}
+
+::selection {
+  background: #cc2555;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+
+/************************
+      WELCOME PAGE
+************************/
+
+#intro {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.3em;
+  line-height: 1em;
+  height: 600px;
+  text-align: right;
+}
+
+.words {
+  text-align: right;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+#intro h3 {
+  font-size: 3em;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#last {
+  margin-top: 0px;
+  margin-bottom: 150px;
+}
+
+.page-wrapper .whatup {
+    display: none;
+  }
+
+/************************
+        NAV-BAR
+************************/
+
+
+.nav {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#mobile-hide {
+  display: block;
+}
+
+
+/************************
+        PROJECTS
+************************/
+
+
+#work {
+  padding: 20px;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#work ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#work li {
+  text-align: center;
+}
+
+#work img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+td .caption {
+  display: none;
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+
+td:hover .caption{
+  display: block;
+  background: black;
+  opacity: .75;
+  color: white;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.caption h5{
+  line-height: 1.5;
+}
+
+#work td {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-right: 1em;
+  width: 50%;
+  height: 50%;
+  padding: 5px;
+}
+
+#mobile {
+  display: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+#show {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+
+/************************
+        ABOUT ME
+************************/
+
+#about {
+  width: 60%;
+  margin: 100px 0;
+  padding: 20px;
+  margin: 0px auto;
+  font-size: 16px; 
+  line-height: 30px;
+}
+
+#about h3 {
+  margin-top: 100px;
+}
+
+#about img {
+  width: 15px;
+}
+
+.contacts img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+/************************
+        FOOTER
+************************/
+
+#footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#footer h3 {
+  font-size: 1.5em;
+  margin: 0px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#footer ul {
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+#footer li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#social a {
+  text-transform: uppercase;
+}
+
+#footer hr {
+  width: 40%;
+}
+
+
+.contacts a {
+  margin: 15px;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/******************
+  RESPONSIVE
+*******************/  
+
+@media (max-width: 810px) and (min-width: 320px) {
+
+  body {
+    font-size: 10px;
+    line-height: 1.3;
+  }
+
+  /*#about {
+    font-size: 2em;
+  }*/
+
+  h5 {
+    font-size: 13px;
+  }
+  
+  #work tr, td { 
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #work h4 {
+    font-size: 20px;
+  }
+
+  #mobile {
+    display: inline-block;
+  }
+
+  .nav li {
+    display: block;
+  }
+
+  #intro .slide {
+    width: 80%;
+  }
+
+  #intro {
+    line-height: 1.5;
+  }
+
+  #about {
+    top: 400px;
+  }
+
+  #work {
+   float: none;
+ }
+
+ #work td {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 auto;
+ }
+
+ #word td {
+  width: 100%;
+  display: block;
+ }
+
+ #work img {
+ /* position: relative;*/
+  width: 100%;
+ }
+
+ #nav {
+  float: none;
+ }
+
+ hr {
+  margin-top: 0px;
+ }
+
+ #footer li {
+  font-size: 14px;
+  display: block;
+ }
+
+ #footer h3 {
+  font-size: 1.5em;
+  margin: 0px;
+}
+
+.contacts {
+  margin-top: 40px;
+}
+
+.contacts a {
+  font-size: 1.5em;
+}
+
+.contacts hr {
+  width: 100%;
+}
+
+
+
+}
