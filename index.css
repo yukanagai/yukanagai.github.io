@@ -27,11 +27,12 @@ a {
 
 a:hover {
   color: #888888;
-  text-decoration: italic;
+  text-decoration: none;
 }
 
 ::selection {
-  background: #F4F4F4;
+  background: #cc2555;
+  color: white;
 }
 
 ul {
@@ -115,19 +116,21 @@ h4 {
         ABOUT ME
 ************************/
 
-.aboutMeOff {
-  display: none;
+.about {
+  
+
 }
 
-.aboutMeOn {
-  display: block;
-/*  position:'fixed'; 
-  top: $(window).scrollTop();
-  left: 0;
-  height: '100%';
-  width: '100%';
-  background: '#ccc';
-  opacity: 0.8;*/
+.contacts img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.contacts a {
+  margin: 15px;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 
@@ -213,7 +216,8 @@ td:hover .caption{
   margin-top: 200px;
   margin: 0px auto;
   padding: 20px;
-  width: 70%;
+  width: 50%;
+
 }
 
 
@@ -229,6 +233,9 @@ td:hover .caption{
 #footer h3 {
   font-size: 1.5em;
   margin: 0px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 #footer a:hover {
@@ -253,6 +260,9 @@ td:hover .caption{
   width: 40%;
 }
 
+#heart {
+  width: 20px;
+}
 
 /******************
   RESPONSIVE
@@ -304,8 +314,21 @@ td:hover .caption{
    float: none;
  }
 
+ #work td {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 auto;
+ }
+
+ #word td {
+  width: 100%;
+  display: block;
+ }
+
  #work img {
-  position: relative;
+ /* position: relative;*/
   width: 100%;
  }
 
@@ -328,9 +351,5 @@ td:hover .caption{
 }
 
 
-
-}
-
-@media (max-width: 660px) {
 
 }
