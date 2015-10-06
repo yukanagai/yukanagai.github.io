@@ -13,14 +13,29 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
-#palmleaf {
+.palmleaf {
+  z-index: 200;
+  width: 160px;
+}
+
+#left {
   float: left;
   z-index: 200;
-  margin-top: 400px;
-  width: 200px;
-  display: relative;
+  width: 160px;
   bottom: 0;
+  margin-top: 500px;
+  margin-left: -10px;
 }
+
+#right {
+  float: right;
+  z-index: 200;
+  margin-top: 400px;
+  width: 160px;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
 
 .pageWrapper {
   background-color: #F1F1F1;

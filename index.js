@@ -7,7 +7,7 @@ $(function() {
 	// 	$('.pageWrapper').css('background-color', randColor);
 	// });
 
-	$('#palmleaf').click(function() {
+	$('.palmleaf').click(function() {
 		$(this).addClass('animated tada').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
 			function() {
 				$(this).removeClass('animated tada');
@@ -16,8 +16,7 @@ $(function() {
 
 	$(window).scroll(function(i){
     	var scrollVar = $(window).scrollTop();
-    	$('#palmleaf').css({'top': .1*scrollVar });
-    	$('#palmleaf').css({'opacity':( 100-scrollVar )/100});
-	})
-
+    	$('.palmleaf').css({'top': .1*scrollVar });
+    	$('.palmleaf').css({'opacity':( 100-scrollVar )/100});
+	});
 });
