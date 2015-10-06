@@ -1,36 +1,41 @@
 /************************
         GENERAL
 ************************/
-html {
-  width: 100%;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  background-color: #31B6EA;
+html, body {
+  background-color: #F1F1F1;
   margin: 0;
   padding: 0;
 	font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: black;
   font-weight: 700;
   letter-spacing: 0.01rem;
   text-rendering: optimizeLegibility;
 }
 
+#palmleaf {
+  float: left;
+  z-index: 200;
+  margin-top: 400px;
+  width: 200px;
+  display: relative;
+  bottom: 0;
+}
+
 .pageWrapper {
-  /*background-color: #E9284E;*/
-  height: 100%;
+  background-color: #F1F1F1;
+  height: 90%;
   width: 90%;
-/*  border: white solid 30px;*/
+  border: 10px solid white;
   margin: 0px auto;
   text-align: right;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #F90F4A;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 a:hover {
@@ -43,7 +48,7 @@ a:hover {
   color: white;
 }
 
-ul {
+ul, li {
   list-style: none;
 }
 
@@ -66,60 +71,43 @@ h4 {
 #intro {
   width: 60%;
   margin: 0 auto;
-  font-size: 1.3em;
-  line-height: 1em;
   height: 600px;
-  text-align: right;
+  text-align: center;
+  color: #F90F4A;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .words {
-  text-align: right;
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.words h1 {
+  font-size: 7em;
+  line-height: 1;
+  margin: 0px;
   margin-bottom: 20px;
+  padding: 0px;
 }
 
-#intro h3 {
-  font-size: 3em;
-  margin-top: 0px;
-  margin-bottom: 5px;
-}
-
-#last {
-  margin-top: 0px;
-  margin-bottom: 150px;
-}
-
-.page-wrapper .whatup {
-    display: none;
-  }
-
-/************************
-        NAV-BAR
-************************/
-
-
-.nav {
-  position: relative;
-  padding-bottom: 20px;
+.words hr {
+  width: 70%;
 }
 
 .nav ul {
-  list-style: none;
+  margin: 24px 0;
+  padding: 0;
+  padding-left: 0;
 }
 
 .nav li {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
-
-.nav a {
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-#mobile-hide {
-  display: block;
-}
-
 
 /************************
         PROJECTS
@@ -160,9 +148,9 @@ td .caption {
 
 td:hover .caption{
   display: block;
-  background: black;
-  opacity: .75;
-  color: white;
+  background: white;
+  opacity: .9;
+  color: black;
   margin: 0 auto;
   padding-top: 80px;
 }
@@ -206,6 +194,7 @@ td:hover .caption{
   margin: 0px auto;
   font-size: 16px; 
   line-height: 30px;
+  text-align: left;
 }
 
 #about h3 {
