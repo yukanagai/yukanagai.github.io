@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #888888;
+  color: black;
   text-decoration: none;
 }
 
@@ -89,25 +89,20 @@ h4 {
   margin: 0px;
   margin-bottom: 20px;
   padding: 0px;
+  color: #F90F4A;
 }
 
 .words hr {
   width: 70%;
 }
 
-.nav ul {
+ul.nav {
+  padding: 0;
   margin: 24px 0;
-  padding: 0;
-  padding-left: 0;
 }
-
 .nav li {
-  margin: 0;
-  padding: 0;
-  margin-left: 10px;
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  margin-left: 25px;
 }
 
 /************************
