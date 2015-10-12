@@ -3,10 +3,10 @@
 ************************/
 
 html, body {
-  background-color: #F1F1F1;
+  /*background-color: #F1F1F1;*/
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: black;
   font-weight: 700;
   letter-spacing: 0.01rem;
@@ -14,12 +14,7 @@ html, body {
 }
 
 .pageWrapper {
-  background-color: #F1F1F1;
-  height: 90%;
-  width: 90%;
-  border: 10px solid white;
   margin: 0px auto;
-  text-align: right;
 }
 
 a {
@@ -44,39 +39,13 @@ ul, li {
 }
 
 h3 {
-  text-align: center;
   font-size: 34px;
-  font-weight: 400;
   line-height: 34px;
 }
 
 h4 {
   font-size: 18px;
 }
-
-.palmleaf {
-  z-index: 200;
-  width: 160px;
-}
-
-#left {
-  float: left;
-  z-index: 200;
-  width: 160px;
-  bottom: 0;
-  margin-top: 500px;
-  margin-left: -10px;
-}
-
-#right {
-  float: right;
-  z-index: 200;
-  margin-top: 400px;
-  width: 160px;
-  margin-top: -10px;
-  margin-right: -10px;
-}
-
 
 /************************
       WELCOME PAGE
@@ -88,7 +57,7 @@ h4 {
   height: 600px;
   text-align: center;
   color: black;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .words {
@@ -98,7 +67,7 @@ h4 {
 }
 
 .words h1 {
-  font-size: 7em;
+  font-size: 5em;
   line-height: 1;
   margin: 0px;
   margin-bottom: 20px;
@@ -106,8 +75,8 @@ h4 {
   color: #F90F4A;
 }
 
-.words hr {
-  width: 70%;
+hr {
+  width: 50%;
 }
 
 ul.nav {
@@ -125,17 +94,8 @@ ul.nav {
 
 #work {
   padding: 20px;
-  background-color: white;
   width: 70%;
   margin: 0 auto;
-}
-
-#work ul {
-  list-style: none;
-  padding: 0px;
-}
-
-#work li {
   text-align: center;
 }
 
@@ -161,7 +121,7 @@ td:hover .caption{
   opacity: .9;
   color: black;
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .caption h5{
@@ -185,17 +145,18 @@ td:hover .caption{
 ************************/
 
 #about {
-  width: 60%;
+  width: 55%;
   margin: 100px 0;
   padding: 20px;
   margin: 0px auto;
-  font-size: 16px; 
+  font-size: 16px;
   line-height: 30px;
   text-align: left;
 }
 
 #about h3 {
   margin-top: 100px;
+  text-align: center;
 }
 
 /************************
@@ -252,7 +213,7 @@ td:hover .caption{
 
 /******************
   RESPONSIVE
-*******************/  
+*******************/
 
 @media (max-width: 810px) and (min-width: 320px) {
 
@@ -262,8 +223,28 @@ td:hover .caption{
     text-align: center;
     margin: 0 auto;
   }
-  
-  .work tr, td { 
+
+  .intro {
+    display: inline-block;
+  }
+
+  .slide {
+    margin: 20px;
+  }
+
+
+ul.nav, .nav ul {
+  display: inline-block;
+}
+  #left {
+    display: inline-block;
+  }
+
+  .words {
+    height: auto;
+  }
+
+  .work tr, td {
     display: block;
     padding: 0px;
     margin: 0px;
@@ -271,13 +252,14 @@ td:hover .caption{
   }
 
   .words h1 {
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .work h4 {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .nav li {
@@ -289,9 +271,6 @@ td:hover .caption{
     width: 80%;
   }
 
-  #intro {
-    line-height: 1.5;
-  }
 
   #about {
     top: 400px;
@@ -322,6 +301,10 @@ td:hover .caption{
   float: none;
  }
 
+ #about {
+
+ }
+
  hr {
   margin-top: 0px;
  }
@@ -343,6 +326,10 @@ td:hover .caption{
 .contacts a {
   font-size: 1.5em;
   margin-bottom: 10px;
+}
+
+.contacts hr {
+  width: 100%;
 }
 
 hr {
