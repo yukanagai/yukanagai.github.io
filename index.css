@@ -6,7 +6,7 @@ html, body {
   /*background-color: #F1F1F1;*/
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: black;
   font-weight: 700;
   letter-spacing: 0.01rem;
@@ -52,27 +52,19 @@ h4 {
 ************************/
 
 #intro {
-  width: 60%;
+  width: 45%;
   margin: 0 auto;
   height: 600px;
   text-align: center;
   color: black;
-  font-family: 'Montserrat', sans-serif;
 }
 
-.words {
+.words h3 {
   margin-top: 150px;
   margin-bottom: 100px;
   color: black;
-}
-
-.words h1 {
-  font-size: 5em;
-  line-height: 1;
-  margin: 0px;
-  margin-bottom: 20px;
-  padding: 0px;
-  color: #F90F4A;
+  text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 hr {
@@ -159,6 +151,18 @@ td:hover .caption{
   text-align: center;
 }
 
+.skills {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skillsList {
+  display: inline-block;
+}
+
+#underline {
+  text-decoration: underline;
+}
 /************************
         FOOTER
 ************************/
