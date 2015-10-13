@@ -37,6 +37,7 @@ li {
   line-height: 34px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  margin-top: 150px;
 }
 
 .slide {
@@ -61,16 +62,16 @@ hr {
 .introText {
   font-size: 34px;
   line-height: 34px;
-  margin-top: 120px;
   margin-bottom: 100px;
   color: black;
   text-align: left;
+  margin-top: 120px;
   font-family: 'Alegreya Sans', sans-serif;
 }
 
 ul.nav {
   padding: 0;
-  margin: 24px 0;
+  margin-top: 10px;
 }
 .nav li {
   display: inline-block;
@@ -137,8 +138,9 @@ td:hover .caption{
   margin: 100px 0;
   margin: 0px auto;
   text-align: left;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 18px;
+  /*font-family: 'Alegreya Sans', sans-serif;*/
+  font-size: 20px;
+  width: 50%;
 }
 
 #about h3 {
@@ -202,6 +204,10 @@ td:hover .caption{
     margin: 0 auto;
   }
 
+  .headerText {
+    margin-top: 150px;
+  }
+
   ul.nav, .nav ul {
     display: inline-block;
   }
@@ -226,16 +232,18 @@ td:hover .caption{
     margin: 0 auto;
    }
 
+   .skills {
+     text-align: left;
+   }
+
    #frontendList {
      display: inline-block;
-     text-align: left;
-     padding-left: 0;
    }
 
    #backendList {
      display: inline-block;
-     margin-left: 30px;
      text-align: left;
+     margin: 0;
    }
 
    #footer li {
