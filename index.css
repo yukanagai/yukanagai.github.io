@@ -210,6 +210,10 @@ td:hover .caption{
     width: 80%;
   }
 
+  .introText {
+    font-size: 24px;
+  }
+
   .work tr, td {
     display: block;
     padding: 0px;
