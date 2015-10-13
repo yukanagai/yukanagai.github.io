@@ -3,18 +3,12 @@
 ************************/
 
 html, body {
-  /*background-color: #F1F1F1;*/
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
   color: black;
-  font-weight: 700;
   letter-spacing: 0.01rem;
   text-rendering: optimizeLegibility;
-}
-
-.pageWrapper {
-  margin: 0px auto;
 }
 
 a {
@@ -34,17 +28,23 @@ a:hover {
   color: white;
 }
 
-ul, li {
+li {
   list-style: none;
 }
 
-h3 {
+.headerText {
   font-size: 34px;
   line-height: 34px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
-h4 {
-  font-size: 18px;
+.slide {
+  width: 55%;
+}
+
+hr {
+  width: 50%;
 }
 
 /************************
@@ -52,23 +52,20 @@ h4 {
 ************************/
 
 #intro {
-  width: 45%;
   margin: 0 auto;
-  height: 600px;
+  height: auto;
   text-align: center;
   color: black;
 }
 
-.words h3 {
-  margin-top: 150px;
+.introText {
+  font-size: 34px;
+  line-height: 34px;
+  margin-top: 120px;
   margin-bottom: 100px;
   color: black;
   text-align: left;
-    font-family: 'Alegreya Sans', sans-serif;
-}
-
-hr {
-  width: 50%;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 ul.nav {
@@ -116,7 +113,7 @@ td:hover .caption{
   padding-top: 100px;
 }
 
-.caption h5{
+.caption {
   line-height: 1.5;
 }
 
@@ -137,13 +134,11 @@ td:hover .caption{
 ************************/
 
 #about {
-  width: 55%;
   margin: 100px 0;
-  padding: 20px;
   margin: 0px auto;
-  font-size: 16px;
-  line-height: 30px;
   text-align: left;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
 }
 
 #about h3 {
@@ -158,6 +153,12 @@ td:hover .caption{
 
 .skillsList {
   display: inline-block;
+  text-align: left;
+  padding-left: 0;
+}
+
+#backendList {
+  margin-left: 50px;
 }
 
 #underline {
@@ -170,18 +171,7 @@ td:hover .caption{
 #footer {
   margin-top: 100px;
   text-align: center;
-}
-
-#footer h3 {
-  font-size: 1.5em;
-  margin: 0px;
-  margin-bottom: 30px;
-  margin-right: 10px;
-  display: inline-block;
-}
-
-#footer a:hover {
-  text-decoration: underline;
+  margin: 0 auto;
 }
 
 #footer ul {
@@ -192,21 +182,6 @@ td:hover .caption{
 #footer li {
   margin-right: 10px;
   display: inline-block;
-}
-
-#social a {
-  text-transform: uppercase;
-}
-
-#footer hr {
-  width: 40%;
-}
-
-.contacts a {
-  margin: 15px;
-  font-size: 1em;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 .contacts img {
@@ -222,67 +197,24 @@ td:hover .caption{
 @media (max-width: 810px) and (min-width: 320px) {
 
   body {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.3;
-    text-align: center;
     margin: 0 auto;
   }
 
-  .intro {
+  ul.nav, .nav ul {
     display: inline-block;
   }
 
-  .slide {
-    margin: 20px;
-  }
-
-
-ul.nav, .nav ul {
-  display: inline-block;
-}
-  #left {
-    display: inline-block;
-  }
-
-  .words {
-    height: auto;
+  #intro, #about {
+    width: 80%;
   }
 
   .work tr, td {
     display: block;
     padding: 0px;
     margin: 0px;
-    width: 100%;
   }
-
-  .words h1 {
-    font-size: 2em;
-    line-height: 1;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  .work h4 {
-    font-size: 14px;
-  }
-
-  .nav li {
-    display: block;
-    font-size: 16px;
-  }
-
-  #intro .slide {
-    width: 80%;
-  }
-
-
-  #about {
-    top: 400px;
-  }
-
-  #work {
-   float: none;
- }
 
  #work td {
   display: block;
@@ -292,57 +224,25 @@ ul.nav, .nav ul {
   margin: 0 auto;
  }
 
- #word td {
-  width: 100%;
-  display: block;
+
+ #frontendList {
+   display: inline-block;
+   text-align: left;
+   padding-left: 0;
  }
 
- #work img {
-  width: 100%;
- }
-
- #nav {
-  float: none;
- }
-
- #about {
-
- }
-
- hr {
-  margin-top: 0px;
+ #backendList {
+   display: inline-block;
+   margin-left: 0px;
+   text-align: left;
  }
 
  #footer li {
-  font-size: 14px;
   display: block;
  }
 
- #footer h3 {
-  font-size: 1.5em;
-  margin: 0px;
-}
-
-.contacts {
-  margin-top: 30px;
-}
-
-.contacts a {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-.contacts hr {
-  width: 100%;
-}
-
-hr {
-  width: 40%;
-  padding-top: 20px;
-  margin: 0 auto;
-  border-left: none;
-}
-
-
+ hr {
+   width: 100%;
+ }
 
 }
