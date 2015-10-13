@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  color: black;
+  color: #333;
   letter-spacing: 0.01rem;
   text-rendering: optimizeLegibility;
 }
@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #333;
   text-decoration: none;
 }
 
@@ -56,17 +56,15 @@ hr {
   margin: 0 auto;
   height: auto;
   text-align: center;
-  color: black;
 }
 
 .introText {
   font-size: 34px;
   line-height: 34px;
   margin-bottom: 100px;
-  color: black;
+  color:#333;
   text-align: left;
   margin-top: 120px;
-  font-family: 'Alegreya Sans', sans-serif;
 }
 
 ul.nav {
@@ -138,7 +136,7 @@ td:hover .caption{
   margin: 100px 0;
   margin: 0px auto;
   text-align: left;
-  /*font-family: 'Alegreya Sans', sans-serif;*/
+  color: #333;
   font-size: 20px;
   width: 50%;
 }
@@ -146,11 +144,13 @@ td:hover .caption{
 #about h3 {
   margin-top: 100px;
   text-align: center;
+  color: #333;
 }
 
 .skills {
   margin: 0 auto;
   text-align: center;
+  color: black;
 }
 
 .skillsList {
