@@ -33,7 +33,7 @@ li {
 }
 
 .slide {
-  width: 80%;
+  max-width: 75%;
   margin: 0 auto;
   height: auto;
 }
@@ -43,7 +43,7 @@ hr {
 }
 
 .headerText {
-  font-size: 34px;
+  font-size: 30px;
   margin-top: 100px;
 }
 
@@ -69,6 +69,10 @@ hr {
   padding: 0 20px;
 }
 
+.navbar a {
+  font-size: 14px;
+}
+
 #left {
   float: left;
   padding: 0;
@@ -87,7 +91,6 @@ hr {
   text-align: left;
   margin-top: 100px;
 }
-
 
 /************************
         PROJECTS
@@ -140,14 +143,14 @@ td:hover .caption{
 
 
 /************************
-        ABOUT ME
+        ABOUT
 ************************/
 
 #about {
   margin: 100px 0;
   margin: 0px auto;
   color: #333;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #about h3 {
