@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   font-family: 'Raleway', sans-serif;
   color: #333;
-  letter-spacing: 0.01rem;
+  letter-spacing: 2px;
   text-rendering: optimizeLegibility;
 }
 
@@ -32,14 +32,6 @@ li {
   list-style: none;
 }
 
-.headerText {
-  font-size: 34px;
-  line-height: 34px;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin-top: 150px;
-}
-
 .slide {
   width: 80%;
   margin: 0 auto;
@@ -48,6 +40,11 @@ li {
 
 hr {
   width: 50%;
+}
+
+.headerText {
+  font-size: 34px;
+  margin-top: 100px;
 }
 
 /************************
@@ -61,7 +58,6 @@ hr {
   padding: 0;
   text-align: right;
   margin-top: 40px;
-
 }
 
 .navbar ul {
@@ -83,12 +79,13 @@ hr {
 ************************/
 
 #intro {
-  font-size: 34px;
+  height: 100%;
+  font-size: 30px;
   line-height: 34px;
   margin-bottom: 100px;
   color:#333;
   text-align: left;
-  margin-top: 350px;
+  margin-top: 100px;
 }
 
 
@@ -215,19 +212,22 @@ td:hover .caption{
   }
 
   .headerText {
-    margin-top: 150px;
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 700;
   }
 
-  ul.nav, .nav ul {
-    display: inline-block;
+  .navbar li {
+    display: block;
   }
 
   #intro, #about {
     width: 80%;
+    height: auto;
   }
 
-  .introText {
-    font-size: 26px;
+  #intro {
+    font-size: 20px;
   }
 
   .work tr, td {
