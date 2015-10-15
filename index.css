@@ -78,6 +78,26 @@ hr {
   padding: 0;
 }
 
+#cloud1 {
+  width: 400px;
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+  vertical-align: middle;
+  opacity: .7;
+}
+
+#cloud2 {
+  width: 400px;
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+  vertical-align: middle;
+  top: 230px;
+  right: 50px;
+  opacity: .7;
+}
+
 /************************
       INTRO SECTION
 ************************/
@@ -157,6 +177,22 @@ td:hover .caption{
   margin-top: 100px;
 }
 
+.header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aboutText {
+  display: inline-block;
+}
+
+.photo img {
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+}
+
 .skills {
   margin: 0 auto;
   text-align: center;
@@ -173,9 +209,7 @@ td:hover .caption{
   margin-left: 50px;
 }
 
-#underline {
-  text-decoration: underline;
-}
+
 /************************
         FOOTER
 ************************/
@@ -243,6 +277,10 @@ td:hover .caption{
     margin-left: 0;
     margin-right: 0;
     margin: 0 auto;
+   }
+
+.photo img {
+     width: 100%;
    }
 
    .skills {
