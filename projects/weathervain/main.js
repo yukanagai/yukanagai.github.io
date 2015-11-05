@@ -5,11 +5,13 @@
       event.preventDefault();
       var selectedCity = $('#city').val();
       var cityTemp = event.currentTarget.dataset.temp;
+      var key = "3c8e84ea9c6f7938384d3c3980033d80";
 
       $.ajax({
        url: "http://api.openweathermap.org/data/2.5/weather?q=" + selectedCity,
        method: 'GET',
-       data: {temp: cityTemp},
+       data: {temp: cityTemp,
+              APPID: key},
        success: function(data, status, xhr) {
          console.log("Data successful", data.main);
          $('#forecast').text("In " + selectedCity + ", it's " + Math.round(((((data.main.temp - 273) * 1.8) + 32).toFixed(2))) + " degrees F");
