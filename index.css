@@ -271,7 +271,7 @@ td:hover .caption{
     display: block;
   }
 
-   #work td {
+  #work td {
     display: block;
     width: 100%;
     margin-left: 0;
@@ -279,7 +279,7 @@ td:hover .caption{
     margin: 0 auto;
    }
 
-.photo img {
+  .photo img {
      width: 100%;
    }
 
