@@ -3,6 +3,7 @@
 ************************/
 
 html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
@@ -12,15 +13,17 @@ html, body {
 }
 
 a {
-  text-decoration: none;
-  color: #F90F4A;
+  color: #787AFF;
   text-transform: uppercase;
   font-size: 16px;
+  padding: 5px;
+  text-decoration: none;
 }
 
 a:hover {
   color: #333;
   text-decoration: none;
+  border: 1px solid black;
 }
 
 ::selection {
@@ -44,8 +47,18 @@ hr {
 
 .headerText {
   font-size: 30px;
-  margin-top: 100px;
-  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+#footer, .push {
+  height: 2em;
+  clear: both;
 }
 
 /************************
@@ -59,6 +72,10 @@ hr {
   padding: 0;
   text-align: right;
   margin-top: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 .navbar ul {
@@ -106,10 +123,8 @@ hr {
 #intro {
   height: 100%;
   font-size: 30px;
-  line-height: 34px;
-  margin-bottom: 100px;
-  color:#333;
-  text-align: left;
+  line-height: 40px;
+  color: #333;
   margin-top: 100px;
 }
 
@@ -170,44 +185,31 @@ td:hover .caption{
 #about {
   margin: 100px 0;
   margin: 0px auto;
-  color: #333;
   font-size: 18px;
 }
 
-#about h3 {
-  margin-top: 100px;
-}
-
-.header {
-  margin: 0 auto;
-  text-align: center;
-}
 
 .aboutText {
-  display: inline-block;
+  height: 100%;
+  width: 40%;
+  float: right;
+  margin-top: 130px;
+  padding-left: 10px;
+}
+
+.photo {
+  height: 100%;
+  width: 50%;
+  float: left;
+  margin: 0 auto;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 14px;
 }
 
 .photo img {
-  width: 500px;
-  text-align: center;
-  border-radius: 10px;
-  display: inline-block;
-}
-
-.skills {
-  margin: 0 auto;
-  text-align: center;
-  color: black;
-}
-
-.skillsList {
-  display: inline-block;
-  text-align: left;
-  padding-left: 0;
-}
-
-#backendList {
-  margin-left: 50px;
+  margin-top: 100px;
+    width: 100%;
 }
 
 
@@ -219,6 +221,8 @@ td:hover .caption{
   margin-top: 100px;
   text-align: center;
   margin: 0 auto;
+  width: 100%;
+  bottom: 0;
 }
 
 #footer ul {
