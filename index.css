@@ -129,6 +129,7 @@ hr {
 }
 
 #intro h1 {
+  margin-bottom: 100px;
   font-weight: 100;
   font-color: gray;
   text-transform: uppercase;
