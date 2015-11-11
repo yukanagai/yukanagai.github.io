@@ -127,6 +127,14 @@ hr {
   margin-top: 120px;
 }
 
+#intro h1 {
+  font-weight: 100;
+  font-color: gray;
+  text-transform: uppercase;
+      text-shadow: -8px 8px 0px #5D737E, -7px 7px 0px #64B6AC, -6px 6px 0px #C0FDFB, -5px 5px 0px #DAFFEF, -4px 4px 0px #FCFFFD, -3px 3px 0px #787AFF;
+      font-size: 3em;
+      text-align: center;
+}
 /************************
         PROJECTS
 ************************/
