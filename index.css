@@ -27,8 +27,7 @@ a:hover {
 }
 
 ::selection {
-  background: #cc2555;
-  color: white;
+  background: #E9E9E9;
 }
 
 li {
@@ -122,10 +121,10 @@ hr {
 
 #intro {
   height: 100%;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 40px;
   color: #333;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 /************************
