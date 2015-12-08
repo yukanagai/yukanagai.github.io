@@ -172,6 +172,10 @@ td:hover .caption{
   margin: 0;
 }
 
+#about2 a {
+  font-size: 1em;
+  color: white;
+}
 
 /************************
         ABOUT
