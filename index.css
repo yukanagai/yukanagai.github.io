@@ -3,7 +3,6 @@
 ************************/
 
 html, body {
-  font-weight: 100;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -43,7 +42,6 @@ hr {
 }
 
 .wrapper {
-  height: 100%;
   height: auto !important;
 }
 
@@ -62,22 +60,17 @@ hr {
 ************************/
 
 #intro {
+  background: #F5CACB;
   color: white;
   padding: 250px 0;
-  background: #F5CACB;
 }
 
 #intro h1 {
   text-transform: uppercase;
-  font-size: 3em;
-  text-align: center;
-  color: white;
+  font-size: 4em;
 }
 
 .navbar {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
   margin-top: 10px;
 }
 
@@ -91,6 +84,10 @@ hr {
   color: white;
 }
 
+#work a {
+  color: #F5CACB;
+}
+
 #work h1 {
   font-size: 2.5em;
   padding: 50px 0;
@@ -101,29 +98,6 @@ hr {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
-}
-
-td .caption {
-  display: none;
-  height: 100%;
-  left: 0;
-  right: 0;
-  position: absolute;
-  top: 0;
-}
-
-td:hover .caption{
-  display: block;
-  background: black;
-  opacity: .9;
-  color: white;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-.caption {
-  line-height: 1.5;
 }
 
 #work td {
@@ -136,8 +110,23 @@ td:hover .caption{
   padding: 20px;
 }
 
-#work a {
-  color: #F5CACB;
+td .caption {
+  display: none;
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+}
+
+td:hover .caption{
+  display: block;
+  background: black;
+  opacity: .9;
+  color: white;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 /************************
@@ -150,7 +139,7 @@ td:hover .caption{
 }
 
 #skills h1 {
-  padding: 250px 50px;
+  padding: 250px 150px;
   font-size: 3em;
   display: inline-block;
   margin: 0 auto;
@@ -168,42 +157,13 @@ td:hover .caption{
 }
 
 #about2 h3 {
-  padding: 250px 50px;
+  padding: 250px 150px;
   margin: 0;
 }
 
 #about2 a {
   font-size: 1em;
   color: white;
-}
-
-/************************
-        ABOUT
-************************/
-
-#about {
-  margin: 0px auto;
-  font-size: 18px;
-}
-
-
-.aboutText {
-  margin: 0 auto;
-  width: 80%;
-  padding-bottom: 100px;
-  text-align: center;
-}
-
-.photo {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 50px;
-  width: 80%;
-}
-
-.photo img {
-  margin: 0 auto;
-  width: 100%;
 }
 
 
@@ -241,25 +201,26 @@ td:hover .caption{
     margin: 0 auto;
   }
 
-  .headerText {
-    margin-top: 50px;
-    font-size: 22px;
-    font-weight: 700;
+  li {
+    display: block;
   }
 
-  .navbar li {
+  ul {
+    padding: 0;
+  }
+
+  #social li {
     display: block;
   }
 
   #intro, #about2 {
-    height: auto;
     margin: 0 auto;
     font-size: 16px;
   }
 
-  #skills h1 {
-    padding: 200px 20px;
-    font-size: 30px;
+  #skills h1, #about2 h3 {
+    padding: 200px 30px;
+    font-size: 20px;
   }
 
   #intro {
@@ -283,10 +244,6 @@ td:hover .caption{
     height: 100%;
     margin: 0;
     padding: 0;
-   }
-
-   #footer li {
-    display: block;
    }
 
 }
