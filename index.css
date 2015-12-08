@@ -166,6 +166,12 @@ td:hover .caption{
   color: white;
 }
 
+#about2 a:hover {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
 
 /************************
         FOOTER
