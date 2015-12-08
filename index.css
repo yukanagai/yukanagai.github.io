@@ -157,7 +157,7 @@ td:hover .caption{
 }
 
 #skills h1 {
-  padding: 250px 0;
+  padding: 250px 50px;
   font-size: 3em;
   display: inline-block;
   margin: 0 auto;
@@ -266,9 +266,15 @@ td:hover .caption{
     display: block;
   }
 
-  #intro, #about {
+  #intro, #about2 {
     height: auto;
     margin: 0 auto;
+    font-size: 16px;
+  }
+
+  #skills h1 {
+    padding: 0 20px;
+    font-size: 30px;
   }
 
   #intro {
@@ -288,30 +294,14 @@ td:hover .caption{
     margin: 0 auto;
    }
 
-  .photo img {
-     width: 100%;
-   }
-
-   .skills {
-     text-align: left;
-   }
-
-   #frontendList {
-     display: inline-block;
-   }
-
-   #backendList {
-     display: inline-block;
-     text-align: left;
-     margin: 0;
+   #social {
+    height: 100%;
+    margin: 0;
+    padding: 0;
    }
 
    #footer li {
     display: block;
-   }
-
-   hr {
-     width: 100%;
    }
 
 }
