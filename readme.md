@@ -1,5 +1,3 @@
-# Yuka's portfolio
+# Welcome to my portfolio!
 
-Hello and welcome! Please take a look around for a compilation of my web app projects.
-
-www.yukanagai.com
+- Here you'll find a compilation of all of my projects that I've been working on. 
