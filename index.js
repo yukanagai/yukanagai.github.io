@@ -1,5 +1,14 @@
 $(function() {
 
+  $.stellar({
+    horizontalScrolling: false,
+    responsive: true
+  });
+
+  $('#work').stellar({
+  scrollProperty: 'transform'
+});
+
 	var $root = $('html, body');
 	$('a').click(function() {
 	    var href = $.attr(this, 'href');
@@ -21,6 +30,8 @@ $(function() {
       'transform':'translateX('+(windowTop) * .7 +'px)'
     });
   });
+
+
 
   // $(window).scroll(function () {
   //     console.log($(window).scrollTop())

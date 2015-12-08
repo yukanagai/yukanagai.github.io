@@ -7,30 +7,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--   FAVICON -->
 	<link type="image/png" href="http://favicon.cargocollective.com/favicon.ico" rel="shortcut icon">
-	<!-- CSS/JS-->
-	<link rel="stylesheet" href="style2.css" />
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
-	<script type="text/javascript" src="/index.js"></script>
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 	<!--   GOOGLE FONTS -->
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<div id="intro">
+
+<div class="wrapper">
+
+	<div class="slide" id="intro"
+		data-parallax="scroll">
 		<h1>YUKA NAGAI</h1>
+		<h3>Front-end Web Developer</h3>
 		<hr>
+		<div class="navbar">
+		    <ul>
+		      <li><a href="#work">Work</a></li>
+		      <li><a href="/about.html">About</a></li>
+		      <li><a href="#footer">Contact</a></li>
+		    </ul>
+	  	</div>
 	</div>
 
-	<div class="navbar">
-	    <ul>
-	      <li><a href="#work">Work</a></li>
-	      <li><a href="/about.html">About</a></li>
-	      <li><a href="#footer"><a href="mailto:yukanagai@gmail.com">Contact</a></li>
-	    </ul>
-  	</div>
-
-	<div class="slide" id="work">
+	<div class="slide" id="work"
+		data-parallax="scroll">
+		<h1>WORK</h1>
 		<table class="bodyText">
 			<thead>
 				<tr>
@@ -119,10 +123,18 @@
 		</table>
 	</div>
 
-	<hr>
+	<div class="slide" id="skills">
+		<h1>HTML5  CSS3  JavaScript  jQuery
+		<br>AJAX  React.js  Ruby/Rails Node.js</h1>
+	</div>
+
+	<div class="slide" id="about2">
+		<h3>Hello! My name is Yuka - a front-end/full-stack web developer with an eye for UX and design. <br><br>
+
+		Currently looking for opportunities to join a dynamic, design-focused team in NYC.</h3>
+	</div>
 
 	<div class="slide" id="footer">
-		<h5>Find me here</h5>
 		<ul id="social">
 			<li><a href="mailto:yukanagai@gmail.com">email</a></li>
 			<li><object data="YukaNagai.pdf" type="application/x-pdf" title="Yuka Nagai - Resume" width="500" height="720"><a href="YukaNagai.pdf">Resume</a></li>
@@ -132,5 +144,14 @@
 			<li><a href="http://www.yukasphotography.tumblr.com">Photography</a></li>
 		</ul>
 	</div>
+</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/1.1.1/jquery.parallax.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+	<script src="index.js"></script>
+
 </body>
 </html>

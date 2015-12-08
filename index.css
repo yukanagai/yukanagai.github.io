@@ -14,7 +14,7 @@ html, body {
 }
 
 a {
-  color: #787AFF;
+  color: black;
   text-transform: uppercase;
   font-size: 16px;
   padding: 5px;
@@ -32,16 +32,14 @@ a:hover {
 }
 
 li {
+  display: inline-block;
+  padding: 0 20px;
   list-style: none;
 }
 
-.slide {
-  max-width: 75%;
-  margin: 0 auto;
-  height: auto;
-}
 
 hr {
+  color: black;
   width: 50%;
 }
 
@@ -50,10 +48,8 @@ hr {
 }
 
 .wrapper {
-  min-height: 100%;
-  height: auto !important;
   height: 100%;
-  margin: 0 auto -4em;
+  height: auto !important;
 }
 
 #footer, .push {
@@ -61,90 +57,51 @@ hr {
   clear: both;
 }
 
-/************************
-      NAV BAR
-************************/
-
-.navbar {
-  margin: 0;
-  width: 80%;
-  margin: 0 auto;
-  padding: 0;
+.slide {
   text-align: center;
-  margin-top: 40px;
+  margin: 0 auto;
 }
 
-.navbar a {
-  text-decoration: none;
-}
-
-.navbar ul {
-  padding: 0;
-}
-
-.navbar li {
-  display: inline-block;
-  padding: 0 20px;
-}
-
-.navbar a {
-  font-size: 14px;
-}
-
-#left {
-  float: left;
-  padding: 0;
-}
-
-#cloud1 {
-  width: 400px;
-  display: inline-block;
-  z-index: -1;
-  position: absolute;
-  vertical-align: middle;
-  opacity: .7;
-}
-
-#cloud2 {
-  width: 400px;
-  display: inline-block;
-  z-index: -1;
-  position: absolute;
-  vertical-align: middle;
-  top: 260px;
-  right: 50px;
-  opacity: .7;
-}
 
 /************************
-      INTRO SECTION
+      INTRO
 ************************/
 
 #intro {
   line-height: 40px;
-  color: #333;
-  margin-top: 120px;
+  color: white;
+  padding: 250px 0;
+  background: #F5CACB;
 }
 
 #intro h1 {
-  font-weight: 4000;
-  font-color: gray;
   text-transform: uppercase;
   font-size: 3em;
   text-align: center;
+  color: white;
 }
 
-#intro hr {
-  width: 10%;
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
 }
+
+
 /************************
         PROJECTS
 ************************/
 
 #work {
-  padding: 20px;
-  margin: 0 auto;
-  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#work h1 {
+  font-size: 2.5em;
+  padding: 50px 0;
+  margin: 0;
 }
 
 #work img {
@@ -165,9 +122,9 @@ td .caption {
 
 td:hover .caption{
   display: block;
-  background: white;
+  background: black;
   opacity: .9;
-  color: black;
+  color: white;
   margin: 0 auto;
   padding-top: 100px;
 }
@@ -187,7 +144,39 @@ td:hover .caption{
 }
 
 #work a {
-  color: black;
+  color: #F5CACB;
+}
+
+/************************
+        SKILLS
+************************/
+
+#skills {
+  background: #F5CACB;
+  color: white;
+}
+
+#skills h1 {
+  padding: 250px 0;
+  font-size: 3em;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+/************************
+        ABOUT
+************************/
+
+#about2 {
+  background: black;
+  color: white;
+  font-size: 2em;
+}
+
+#about2 h3 {
+  padding: 250px 50px;
+  margin: 0;
 }
 
 
@@ -226,12 +215,12 @@ td:hover .caption{
 ************************/
 
 #footer {
-  margin-top: 100px;
+  background: #F5CACB;
   text-align: center;
   margin: 0 auto;
   width: 100%;
   bottom: 0;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -244,6 +233,7 @@ td:hover .caption{
   margin-right: 10px;
   display: inline-block;
 }
+
 
 .contacts img {
   width: 15px;
@@ -277,8 +267,8 @@ td:hover .caption{
   }
 
   #intro, #about {
-    width: 80%;
     height: auto;
+    margin: 0 auto;
   }
 
   #intro {
@@ -290,6 +280,7 @@ td:hover .caption{
   }
 
   #work td {
+    padding: 0;
     display: block;
     width: 100%;
     margin-left: 0;
