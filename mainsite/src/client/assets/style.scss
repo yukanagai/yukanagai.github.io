@@ -1,0 +1,58 @@
+.pageWrapper {
+
+  .navContainer {
+    margin: 50px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+
+    h1 {
+      margin: 20px 0px;
+      display: inline-block;
+    }
+
+    a.paneLink {
+      line-height: 60px;
+      padding: 0px 80px;
+      font-size: 20px;
+      color: black;
+      z-index: 20;
+
+      &:active, &:focus {
+        color: white;
+      }
+    }
+
+    #more {
+      float: left;
+    }
+    #about {
+      float: right;
+    }
+  }
+
+  img {
+    height: 100%;
+  }
+
+  .pane {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    color: black;
+    padding: 120px 80px;
+    z-index: 10;
+
+
+    &#moreContainer {
+      float: left;
+      background-color: #EFF5F8;
+    }
+
+    &#aboutContainer {
+      float: right;
+      background-color: #EFEFF0;
+      text-align: right;
+    }
+  }
+}
