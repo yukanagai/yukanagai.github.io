@@ -8,6 +8,7 @@ const Thanks = React.createClass({
 				<p>Thanks for stopping by 👋!<br/>
 				If you would like to collaborate and create together <br/>
 				feel free to <a href="mailto:yukanagai@gmail.com">get in touch.</a></p>
+				<p>Currently available for small projects.</p>
 			</div>
 		);
 	}

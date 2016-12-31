@@ -16,7 +16,7 @@ const Footer = React.createClass({
 						<ul className="col-xs-6">
 							<li><a target="_blank" href="mailto:yukanagai@gmail.com">Email</a></li>
 							<li><a target="_blank" href="https://www.github.com/yukanagai">GitHub</a></li>
-							<li><a target="_blank" href="#">Resume</a></li>
+							<li><a target="_blank" href="src/img/yuka_nagai_resume.pdf">Resume</a></li>
 						</ul>
 					</div>
 				</div>
