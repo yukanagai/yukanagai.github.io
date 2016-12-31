@@ -5,8 +5,8 @@ const Footer = React.createClass({
 	render: function() {
 		return (
 			<footer className="row">
-				<p className="col-xs-8">Yuka Nagai</p>
-				<div className="col-xs-4">
+				<p className="col-xs-6">Yuka Nagai</p>
+				<div className="col-xs-6">
 					<div className="row">
 						<ul className="col-xs-6">
 							<li><a target="_blank" href="https://www.twitter.com/yukanagai">Twitter</a></li>
