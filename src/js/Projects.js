@@ -25,7 +25,7 @@ const Projects = React.createClass({
 		return (
 			<div className="project row">
 				<div className="col-md-6">
-					<p className="title">CitySounds is digital way to experience any city in the world through a dynamically created playlist of the city's local artists while visualizing the city's real-time weather forecast.</p>
+					<p className="title">CitySounds is digital way to experience any city in the world through it's local music and real-time weather updates.</p>
 					<div className="about">
 						<p><b>Name:</b> CitySounds</p>
 						<p><b>Tech stack:</b> React, jQuery, Node.js/Express, Spotify Web API, Echo est API, & OpenWeather API</p>
